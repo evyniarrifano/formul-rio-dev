@@ -1,8 +1,57 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: rgb(202, 202, 202);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 fieldset {
     border: none;
+}
+
+.info {
+    margin: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: darkslategray;
+}
+
+#subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: darkslategray;
+}
+
+#nome {
+    border: outset;
+    border-radius: 5px;
+    border-color: darkgrey;
+    display: block;
+}
+
+#sobrenome {
+    border: outset;
+    border-radius: 5px;
+    border-color: darkgray;
+    display: block;
+}
+
+#email {
+    border: outset;
+    border-radius: 5px;
+    border-color: darkgray;
+    display: block;
+}
+
+.campo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
 }

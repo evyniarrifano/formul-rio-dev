@@ -15,22 +15,34 @@
 
     <form>
         <fieldset>
-            <div class="info">
-                <label for="nome"><strong>Nome</strong></label>
+            <div class="info" >
+                <label for="nome" style="color:darkslategrey;"><strong>Nome</strong></label>
                 <input type="text" name="nome" id="nome" required>
             </div>
 
             <div class="info">
-                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <label for="sobrenome" style="color: darkslategray;"><strong>Sobrenome</strong></label>
                 <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
 
             <div class="info">
-                <label for="email"><strong>Email</strong></label>
-                <input type="email" name="email" id="email" required>
+                <label for="email" style="color: darkslategray;"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required> <br>
             </div>
         </fieldset>
     </form>
 
+        <div>
+            <label class="campo">De qual lado da aplicação você desenvolve?</label> <br>
+            <label class="campo">
+                <input type="radio" name="devweb" value="frontend">Frontend
+            </label> <br>
+            <label class="campo">
+                <input type="radio" name="devweb" value="backend">Backend
+            </label> <br>
+            <label class="campo">
+                <input type="radio" name="devweb" value="fullstack">fullstack
+            </label>
+        </div>
 </body>
 </html>
